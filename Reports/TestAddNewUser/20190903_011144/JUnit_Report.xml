@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestAddNewUser" time="9" tests="0" failures="0" errors="1">
+    <testsuite name="TestAddNewUser" tests="0" failures="0" errors="1" time="9" timestamp="2019-09-03 01:11:45" hostname="gquispe - PRACTIAARNB909.pragmanet.local" id="Test Suites/TestAddNewUser">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_011144"/>
+            <property name="logFiles" value="C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_011144\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="gquispe - PRACTIAARNB909.pragmanet.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="192.168.0.8"/>
+            <property name="sessionId" value="9db487a6-c5ad-4295-80ec-dca49b8881cb"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/AddUser" classname="Test Cases/AddUser" status="ERROR">
+            <error type="ERROR" message="Test Cases/AddUser FAILED.&#xA;Reason:&#xA;java.lang.ClassNotFoundException: website.SignInPage&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)&#xD;&#xA;&#x9;at AddUser.run(AddUser:1)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1567483904305.run(TempTestSuite1567483904305.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-09-03 01:11:55 - [TEST_CASE][ERROR] - Test Cases/AddUser: Test Cases/AddUser FAILED.
+Reason:
+java.lang.ClassNotFoundException: website.SignInPage&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)&#xD;
+	at AddUser.run(AddUser:1)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567483904305.run(TempTestSuite1567483904305.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-09-03 01:11:55 - [TEST_STEP][ERROR] - website.SignInPage.login(username, password): website.SignInPage&#xD;
+&#xD;
+2019-09-03 01:11:55 - [MESSAGE][ERROR] - website.SignInPage</system-out>
+            <system-err>2019-09-03 01:11:55 - [TEST_CASE][ERROR] - Test Cases/AddUser: Test Cases/AddUser FAILED.
+Reason:
+java.lang.ClassNotFoundException: website.SignInPage&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)&#xD;
+	at AddUser.run(AddUser:1)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1567483904305.run(TempTestSuite1567483904305.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-09-03 01:11:45 - [TEST_SUITE][INCOMPLETE] - TestAddNewUser: null</system-out>
+        <system-err>2019-09-03 01:11:45 - [TEST_SUITE][INCOMPLETE] - TestAddNewUser: null</system-err>
+    </testsuite>
+</testsuites>

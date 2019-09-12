@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestAddNewUser,Firefox 68.0,,,2019-09-03 01:11:45,2019-09-03 01:11:55,9.289s,INCOMPLETE
+,,,,,,,
+Test Cases/AddUser,Firefox 68.0,,,2019-09-03 01:11:55,2019-09-03 01:11:55,0.164s,ERROR
+"website.SignInPage.login(username, password)",Firefox 68.0,,,2019-09-03 01:11:55,2019-09-03 01:11:55,0.012s,ERROR

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestAddNewUser" time="40" tests="1" failures="0" errors="0">
+    <testsuite name="TestAddNewUser" tests="1" failures="0" errors="0" time="40" timestamp="2019-09-03 20:18:44" hostname="gquispe - PRACTIAARNB909.pragmanet.local" id="Test Suites/TestAddNewUser">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842"/>
+            <property name="logFiles" value="C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552738689.png, C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552745799.png, C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552756031.png, C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552762712.png, C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552764405.png"/>
+            <property name="hostName" value="gquispe - PRACTIAARNB909.pragmanet.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="192.168.0.8"/>
+            <property name="sessionId" value="6a666796-0c24-4c51-b81e-02df0e40d2b7"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/AddUser" classname="Test Cases/AddUser" status="PASSED">
+            <system-out>2019-09-03 20:18:57 - [TEST_CASE][PASSED] - Test Cases/AddUser: Test Cases/AddUser&#xD;
+&#xD;
+2019-09-03 20:18:58 - [TEST_STEP][PASSED] - website.SignInPage.login(username, password): website.SignInPage.login is PASSED&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SingIn/input_email' is visible&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_SingIn/input_email'&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SingIn/input_password' is visible&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_SingIn/input_password'&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SingIn/button_sing_in' is clickable&#xD;
+&#xD;
+2019-09-03 20:18:58 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552738689.png]]&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SingIn/button_sing_in' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - website.SignInPage.login is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:05 - [TEST_STEP][PASSED] - website.SidePanel.selectOptionUsers(): website.SidePanel.selectOptionUsers is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/SidePanel/option_admin' is visible&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SidePanel/option_admin' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/SidePanel/option_user_management' is visible&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SidePanel/option_user_management' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:05 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552745799.png]]&#xD;
+&#xD;
+2019-09-03 20:19:06 - [MESSAGE][PASSED] - Object 'Object Repository/SidePanel/option_users' is visible&#xD;
+&#xD;
+2019-09-03 20:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SidePanel/option_users' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:06 - [MESSAGE][PASSED] - website.SidePanel.selectOptionUsers is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:06 - [TEST_STEP][PASSED] - website.UsersPage.clickAddButton(): website.UsersPage.clickAddButton is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Users/circle' is visible&#xD;
+&#xD;
+2019-09-03 20:19:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Users/table_list_container' is visible&#xD;
+&#xD;
+2019-09-03 20:19:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Users/button_add_new' is visible&#xD;
+&#xD;
+2019-09-03 20:19:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Users/button_add_new' is clickable&#xD;
+&#xD;
+2019-09-03 20:19:16 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552756031.png]]&#xD;
+&#xD;
+2019-09-03 20:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Users/button_add_new' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:16 - [MESSAGE][PASSED] - website.UsersPage.clickAddButton is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:16 - [TEST_STEP][PASSED] - website.AddUserPage.enterData(employee, newUsername, role, supervisor, adminRole, status, newPassword, confirmPassword): website.AddUserPage.enterData is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewUsers/input_username' is visible&#xD;
+&#xD;
+2019-09-03 20:19:18 - [MESSAGE][PASSED] - Text 'Greg Fisher' is set on object 'Object Repository/Page_NewUsers/input_empoyee'&#xD;
+&#xD;
+2019-09-03 20:19:18 - [MESSAGE][PASSED] - Text 'TestGreg0001' is set on object 'Object Repository/Page_NewUsers/input_username'&#xD;
+&#xD;
+2019-09-03 20:19:19 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_NewUsers/input_password'&#xD;
+&#xD;
+2019-09-03 20:19:19 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_NewUsers/input_confirmPassword'&#xD;
+&#xD;
+2019-09-03 20:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewUsers/dropdown_role' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:20 - [MESSAGE][PASSED] - Object: '' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewUsers/dropdown_supervisor' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:21 - [MESSAGE][PASSED] - Object: '' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewUsers/dropdown_admin' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:22 - [MESSAGE][PASSED] - Object: '' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewUsers/dropdown_status' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:22 - [MESSAGE][PASSED] - Object: '' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:22 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552762712.png]]&#xD;
+&#xD;
+2019-09-03 20:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewUsers/button_new_user' is clicked on&#xD;
+&#xD;
+2019-09-03 20:19:23 - [MESSAGE][PASSED] - website.AddUserPage.enterData is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:23 - [TEST_STEP][PASSED] - website.UsersPage.verifyNewUserAdded(newUsername): website.UsersPage.verifyNewUserAdded is PASSED&#xD;
+&#xD;
+2019-09-03 20:19:24 - [MESSAGE][PASSED] - Object 'New User' is visible&#xD;
+&#xD;
+2019-09-03 20:19:24 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\TestAddNewUser\\20190903_201842\\1567552764405.png]]&#xD;
+&#xD;
+2019-09-03 20:19:24 - [MESSAGE][PASSED] - website.UsersPage.verifyNewUserAdded is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-03 20:18:44 - [TEST_SUITE][INCOMPLETE] - TestAddNewUser: null</system-out>
+        <system-err>2019-09-03 20:18:44 - [TEST_SUITE][INCOMPLETE] - TestAddNewUser: null</system-err>
+    </testsuite>
+</testsuites>

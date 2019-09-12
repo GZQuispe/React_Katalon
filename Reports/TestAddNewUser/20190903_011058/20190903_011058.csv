@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestAddNewUser,Firefox 68.0,,,2019-09-03 01:11:00,2019-09-03 01:11:10,9.349s,INCOMPLETE
+,,,,,,,
+Test Cases/AddUser,Firefox 68.0,,,2019-09-03 01:11:09,2019-09-03 01:11:10,0.115s,PASSED
+assert 1 == 1,Firefox 68.0,,,2019-09-03 01:11:10,2019-09-03 01:11:10,0.000s,PASSED
