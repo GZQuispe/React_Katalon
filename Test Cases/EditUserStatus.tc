@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditUserStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>657d26d4-2f5c-43ec-8658-a56714d61db7</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>ea07aa41-7a1f-43d1-9593-0f50fd28a7bb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>f21f4be7-ac4b-4a79-832c-c558dfe830b3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'helen'</defaultValue>
+      <description></description>
+      <id>20bd3438-2463-486f-ba81-0be4ef926520</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'Disabled'</defaultValue>
+      <description></description>
+      <id>97152b3c-308a-489d-b0a6-944dc2f2b0d6</id>
+      <masked>false</masked>
+      <name>newStatus</name>
+   </variable>
+</TestCaseEntity>

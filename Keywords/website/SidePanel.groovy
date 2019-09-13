@@ -20,9 +20,9 @@ import internal.GlobalVariable
 
 public class SidePanel extends BasePage{
 
-	private TestObject admin = findTestObject('Object Repository/SidePanel/option_admin')
+	private TestObject admin 		  = findTestObject('Object Repository/SidePanel/option_admin')
 	private TestObject userManagement = findTestObject('Object Repository/SidePanel/option_user_management')
-	private TestObject users = findTestObject('Object Repository/SidePanel/option_users')
+	private TestObject users 		  = findTestObject('Object Repository/SidePanel/option_users')
 
 	@Keyword
 	def selectOptionUsers(){

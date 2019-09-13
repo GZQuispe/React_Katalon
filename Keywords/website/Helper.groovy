@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.exception.StepFailedException
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -62,7 +63,7 @@ public class Helper {
 			Assert.assertTrue(WebUI.waitForElementVisible(object, wait))
 		} catch (AssertionError e){
 			WebUI.takeScreenshot()
-			throw new StepFailedException("No se encontro el item: "+name)
+			throw new StepFailedException("Item not found: "+name)
 		}
 		//	WebUI.takeScreenshot()
 	}
@@ -227,23 +228,9 @@ public class Helper {
 		return ck.getName()+";"+ck.getValue()+";"+ck.getDomain()+";"+ck.getPath()+";"+ck.getExpiry()+";"+ck.isSecure()
 	}
 
-	def buildCookie(String tokenizedCookie){
-		StringTokenizer token = new StringTokenizer(tokenizedCookie,";");
-		System.out.println(token)
-		String name = token.nextToken();
-		System.out.println(name)
-		String value = token.nextToken();
-		System.out.println(value)
-		String domain = token.nextToken();
-		System.out.println(domain)
-		String path = token.nextToken();
-		System.out.println(path)
-		System.out.println(token.nextToken())
-		//	   Date expiry = new SimpleDateFormat("EEE, MMM dd yyyy HH:mm:ss").parse(token.nextToken())
-		Boolean isSecure = new Boolean(token.nextToken())
-		Cookie cookie = new Cookie(name,value);
-		System.out.println(cookie)
-		return cookie
+	def addTextXpathToObject(TestObject object, String text){
+		String xpath = "//span[contains(text(),'" + text +"')]"
+		return object.addProperty("xpath", ConditionType.EQUALS, xpath)
 	}
 
 }

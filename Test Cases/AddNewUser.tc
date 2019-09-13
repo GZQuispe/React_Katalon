@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddNewUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d61b6fa-111d-40af-bef3-a85b30ee636e</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>ea07aa41-7a1f-43d1-9593-0f50fd28a7bb</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>f21f4be7-ac4b-4a79-832c-c558dfe830b3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Greg Fisher'</defaultValue>
+      <description></description>
+      <id>371691e7-e04e-49c2-accb-222ec4bad5d4</id>
+      <masked>false</masked>
+      <name>employee</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestGreg001674'</defaultValue>
+      <description></description>
+      <id>7d5e222b-1add-42e1-9a8a-4c9ec4faacd6</id>
+      <masked>false</masked>
+      <name>newUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default ESS'</defaultValue>
+      <description></description>
+      <id>5e53a96a-c71d-4c75-b39d-08c9742132ef</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Default Supervisor'</defaultValue>
+      <description></description>
+      <id>664740db-cb16-4927-97df-6ad0e39a4258</id>
+      <masked>false</masked>
+      <name>supervisor</name>
+   </variable>
+   <variable>
+      <defaultValue>'Global Admin'</defaultValue>
+      <description></description>
+      <id>ab96ed84-c02e-4ac0-bcc4-548ba1efefbf</id>
+      <masked>false</masked>
+      <name>adminRole</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>40dea25a-fad6-4d58-88e6-77393a758681</id>
+      <masked>false</masked>
+      <name>newPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>0af9d45f-43f5-4903-bda4-0ffa272406e1</id>
+      <masked>false</masked>
+      <name>confirmPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Enabled'</defaultValue>
+      <description></description>
+      <id>adf0f65b-fa9a-41ac-9da7-4753ba28ef89</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

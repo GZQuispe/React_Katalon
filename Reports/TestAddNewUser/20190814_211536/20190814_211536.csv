@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TestAddNewUser,Firefox 67.0,,,2019-08-14 21:15:39,2019-08-14 21:16:18,39.290s,INCOMPLETE
-,,,,,,,
-Test Cases/AddUser,Firefox 67.0,,,2019-08-14 21:15:52,2019-08-14 21:16:18,26.285s,PASSED
-"website.Page_SignIn.login(username, password)",Firefox 67.0,,,2019-08-14 21:15:52,2019-08-14 21:16:00,7.656s,PASSED
-website.SidePanel.selectOptionUsers(),Firefox 67.0,,,2019-08-14 21:16:00,2019-08-14 21:16:01,1.266s,PASSED
-website.Page_Users.clickAddButton(),Firefox 67.0,,,2019-08-14 21:16:01,2019-08-14 21:16:11,10.498s,PASSED
-"website.Page_AddUser.enterData(employee, newUsername, role, supervisor, adminRole, status, newPassword, confirmPassword)",Firefox 67.0,,,2019-08-14 21:16:11,2019-08-14 21:16:17,5.422s,PASSED
-website.Page_Users.verifyNewUserAdded(newUsername),Firefox 67.0,,,2019-08-14 21:16:17,2019-08-14 21:16:18,1.185s,PASSED

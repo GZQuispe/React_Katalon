@@ -20,11 +20,17 @@ import internal.GlobalVariable
 
 public class SignInPage extends BasePage{
 
-	private TestObject inputEmail 	 = findTestObject('Object Repository/Page_SingIn/input_email')
-	private TestObject inputPassword = findTestObject('Object Repository/Page_SingIn/input_password')
-	private TestObject buttonSingIn  = findTestObject('Object Repository/Page_SingIn/button_sing_in')
-	private TestObject linkCreateAccount = findTestObject('Object Repository/Page_SingIn/button_sing_in')
+	private TestObject inputEmail 	 = findTestObject('SingInPage/input_email')
+	private TestObject inputPassword = findTestObject('SingInPage/input_password')
+	private TestObject buttonSingIn  = findTestObject('SingInPage/button_sing_in')
+	private TestObject linkCreateAccount = findTestObject('SingInPage/button_sing_in')
 
+	def SignInPage(){
+		verifyElementIsVisible(inputEmail, "Email")
+		verifyElementIsVisible(inputPassword, "Password")
+		verifyElementIsClickable(buttonSingIn, "Button Sign In")
+	}
+	
 	@Keyword
 	def login(String email, String password){
 		enterEmail(email)
@@ -33,17 +39,14 @@ public class SignInPage extends BasePage{
 	}
 
 	def enterEmail(String email){
-		verifyElementIsVisible(inputEmail, email)
 		WebUI.setText(inputEmail, email)
 	}
 
 	def enterPassword(String password){
-		verifyElementIsVisible(inputPassword, password)
 		WebUI.setText(inputPassword, password)
 	}
 
 	def clickSingIn(){
-		verifyElementIsClickable(buttonSingIn, "Button Sign In")
 		WebUI.click(buttonSingIn)
 	}
 
