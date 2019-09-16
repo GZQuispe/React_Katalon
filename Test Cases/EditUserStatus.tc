@@ -20,7 +20,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'helen'</defaultValue>
+      <defaultValue>'kevin'</defaultValue>
       <description></description>
       <id>20bd3438-2463-486f-ba81-0be4ef926520</id>
       <masked>false</masked>

@@ -43,7 +43,7 @@ public class UserInfoPage extends BasePage{
 		verifyElementIsVisible(span,"Option")
 		WebUI.click(span)
 	}
-	
+
 	@Keyword
 	def editStatus(String newStatus){
 		verifyElementIsVisible(inputUsername,"Input Username")

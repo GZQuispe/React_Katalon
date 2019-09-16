@@ -30,22 +30,25 @@ public class SignInPage extends BasePage{
 		verifyElementIsVisible(inputPassword, "Password")
 		verifyElementIsClickable(buttonSingIn, "Button Sign In")
 	}
-	
+
 	@Keyword
 	def login(String email, String password){
 		enterEmail(email)
 		enterPassword(password)
 		clickSingIn()
 	}
-
+	
+	@Keyword
 	def enterEmail(String email){
 		WebUI.setText(inputEmail, email)
 	}
-
+	
+	@Keyword
 	def enterPassword(String password){
 		WebUI.setText(inputPassword, password)
 	}
-
+	
+	@Keyword
 	def clickSingIn(){
 		WebUI.click(buttonSingIn)
 	}

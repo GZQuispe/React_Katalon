@@ -1,4 +1,4 @@
-CustomKeywords.'website.SignInPage.login'(username, password)
+CustomKeywords.'website.TestCaller.login'(username, password)
 
 CustomKeywords.'website.SidePanel.selectOptionUsers'()
 

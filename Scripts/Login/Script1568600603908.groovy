@@ -13,12 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'website.TestCaller.login'(username, password)
+CustomKeywords.'website.SignInPage.enterEmail'(email)
 
-CustomKeywords.'website.SidePanel.selectOptionUsers'()
+CustomKeywords.'website.SignInPage.enterPassword'(password)
 
-CustomKeywords.'website.UsersPage.clickEditUser'(user)
+CustomKeywords.'website.SignInPage.clickSingIn'()
 
-CustomKeywords.'website.UserInfoPage.editStatus'(newStatus)
-
-CustomKeywords.'website.UsersPage.verifyNewStatus'(user, newStatus)
+CustomKeywords.'website.DashboardPage.verifySuccessfulLogin'()

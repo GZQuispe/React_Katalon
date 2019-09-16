@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\Regression_Test\\20190913_013715\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\gquispe\\Katalon Studio\\DummyLoginWebsite\\Reports\\Regression_Test\\20190915_234454\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Regression_Test', suiteProperties, [new TestCaseBinding('Test Cases/AddNewUser', 'Test Cases/AddNewUser',  null), new TestCaseBinding('Test Cases/EditUserStatus', 'Test Cases/EditUserStatus',  null)])
+TestCaseMain.startTestSuite('Test Suites/Regression_Test', suiteProperties, [new TestCaseBinding('Test Cases/Login', 'Test Cases/Login',  null), new TestCaseBinding('Test Cases/AddNewUser', 'Test Cases/AddNewUser',  null), new TestCaseBinding('Test Cases/EditUserStatus', 'Test Cases/EditUserStatus',  null)])
